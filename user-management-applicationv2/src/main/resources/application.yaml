@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-management-application
+  datasource:
+    url: jdbc:mysql://localhost:3306/usersdbwithexception?createDatabaseIfNotExist=true
+    username: root
+    password: 142202
+  jpa:
+    hibernate:
+      ddl-auto: update
+
